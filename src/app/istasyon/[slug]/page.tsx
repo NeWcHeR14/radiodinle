@@ -51,11 +51,8 @@ export default async function StationPage({ params }: { params: Promise<{ slug: 
           <img
             src={radio.logoUrl}
             alt={radio.name}
-            className="w-full h-full object-cover"
+            className="w-full h-full object-cover bg-secondary"
             referrerPolicy="no-referrer"
-            onError={(e) => {
-              e.currentTarget.src = "https://ui-avatars.com/api/?name=" + encodeURIComponent(radio.name) + "&background=8b5cf6&color=fff&size=256";
-            }}
           />
         </div>
 
