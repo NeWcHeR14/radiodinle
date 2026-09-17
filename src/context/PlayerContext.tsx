@@ -1,7 +1,7 @@
 "use client";
 
 import React, { createContext, useContext, useState, useRef, useEffect } from "react";
-import radiosData from "@/data/radios.json";
+import Hls from "hls.js";
 
 export interface Radio {
   id: string;
@@ -35,6 +35,7 @@ export const PlayerProvider = ({ children }: { children: React.ReactNode }) => {
   const [error, setError] = useState<string | null>(null);
   
   const audioRef = useRef<HTMLAudioElement | null>(null);
+  const hlsRef = useRef<Hls | null>(null);
 
   useEffect(() => {
     audioRef.current = new Audio();
@@ -69,6 +70,10 @@ export const PlayerProvider = ({ children }: { children: React.ReactNode }) => {
       audio.removeEventListener("error", handleError);
       audio.pause();
       audio.src = "";
+      if (hlsRef.current) {
+        hlsRef.current.destroy();
+        hlsRef.current = null;
+      }
     };
   }, []);
 
@@ -87,14 +92,62 @@ export const PlayerProvider = ({ children }: { children: React.ReactNode }) => {
     setIsLoading(true);
     setError(null);
     
-    // Update src and play
-    audioRef.current.src = radio.streamUrl;
-    audioRef.current.load(); // important to reload the audio element
-    audioRef.current.play().catch(e => {
-      console.error("Play error:", e);
-      setIsLoading(false);
-      setError("Otomatik oynatma tarayıcı tarafından engellendi.");
-    });
+    const audio = audioRef.current;
+    audio.pause();
+
+    // Destroy previous HLS instance if it exists
+    if (hlsRef.current) {
+      hlsRef.current.destroy();
+      hlsRef.current = null;
+    }
+
+    const isM3U8 = radio.streamUrl.includes(".m3u8");
+
+    if (isM3U8 && Hls.isSupported()) {
+      // Use hls.js for HLS streams if supported
+      const hls = new Hls({
+        enableWorker: true,
+      });
+      
+      hlsRef.current = hls;
+      hls.loadSource(radio.streamUrl);
+      hls.attachMedia(audio);
+      
+      hls.on(Hls.Events.MANIFEST_PARSED, () => {
+        audio.play().catch(e => {
+          console.error("Play error:", e);
+          setIsLoading(false);
+          setError("Otomatik oynatma tarayıcı tarafından engellendi.");
+        });
+      });
+
+      hls.on(Hls.Events.ERROR, (event, data) => {
+        if (data.fatal) {
+          console.error("HLS fatal error:", data);
+          setIsLoading(false);
+          setError("Yayın formatı desteklenmiyor veya bağlantı hatası.");
+          hls.destroy();
+        }
+      });
+    } else if (isM3U8 && audio.canPlayType("application/vnd.apple.mpegurl")) {
+      // Native HLS support (like Safari)
+      audio.src = radio.streamUrl;
+      audio.load();
+      audio.play().catch(e => {
+        console.error("Play error:", e);
+        setIsLoading(false);
+        setError("Otomatik oynatma tarayıcı tarafından engellendi.");
+      });
+    } else {
+      // Standard audio streams (mp3, aac, etc)
+      audio.src = radio.streamUrl;
+      audio.load();
+      audio.play().catch(e => {
+        console.error("Play error:", e);
+        setIsLoading(false);
+        setError("Otomatik oynatma tarayıcı tarafından engellendi.");
+      });
+    }
   };
 
   const togglePlay = () => {
