@@ -6,6 +6,12 @@ import { Radio } from "@/context/PlayerContext";
 import { RadioTower, Info, Headphones } from "lucide-react";
 import RadioCard from "@/components/RadioCard";
 
+export async function generateStaticParams() {
+  return radiosData.map((radio) => ({
+    slug: radio.slug,
+  }));
+}
+
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
   const p = await params;
   const radio = radiosData.find((r) => r.slug === p.slug);
