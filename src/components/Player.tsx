@@ -17,12 +17,14 @@ export default function Player() {
         {/* Left: Radio Info */}
         <div className="flex items-center gap-3 w-1/3 min-w-[150px]">
           <div className="relative w-12 h-12 rounded-md overflow-hidden bg-secondary flex-shrink-0">
-            <Image
+            <img
               src={currentRadio.logoUrl}
               alt={currentRadio.name}
-              fill
-              className="object-cover"
-              sizes="48px"
+              className="w-full h-full object-cover"
+              referrerPolicy="no-referrer"
+              onError={(e) => {
+                e.currentTarget.src = "https://ui-avatars.com/api/?name=" + encodeURIComponent(currentRadio.name) + "&background=8b5cf6&color=fff&size=128";
+              }}
             />
           </div>
           <div className="flex flex-col overflow-hidden">

@@ -42,12 +42,14 @@ export default async function StationPage({ params }: { params: Promise<{ slug: 
         
         {/* Logo */}
         <div className="relative w-40 h-40 md:w-56 md:h-56 rounded-full overflow-hidden shadow-2xl border-4 border-card flex-shrink-0 z-10">
-          <Image
+          <img
             src={radio.logoUrl}
             alt={radio.name}
-            fill
-            className="object-cover"
-            sizes="(max-width: 768px) 160px, 224px"
+            className="w-full h-full object-cover"
+            referrerPolicy="no-referrer"
+            onError={(e) => {
+              e.currentTarget.src = "https://ui-avatars.com/api/?name=" + encodeURIComponent(radio.name) + "&background=8b5cf6&color=fff&size=256";
+            }}
           />
         </div>
 

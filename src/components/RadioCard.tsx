@@ -33,12 +33,14 @@ export default function RadioCard({ radio }: RadioCardProps) {
         {/* Aspect Ratio Container for Logo */}
         <div className="relative aspect-square w-full bg-secondary/50 p-6 flex items-center justify-center group-hover:bg-secondary/70 transition-colors">
           <div className="relative w-full h-full rounded-full overflow-hidden shadow-lg border-4 border-card">
-            <Image
+            <img
               src={radio.logoUrl}
               alt={radio.name}
-              fill
-              className="object-cover group-hover:scale-105 transition-transform duration-500"
-              sizes="(max-width: 768px) 50vw, 33vw"
+              className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+              referrerPolicy="no-referrer"
+              onError={(e) => {
+                e.currentTarget.src = "https://ui-avatars.com/api/?name=" + encodeURIComponent(radio.name) + "&background=8b5cf6&color=fff&size=256";
+              }}
             />
           </div>
           
