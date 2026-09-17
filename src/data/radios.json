@@ -1,106 +1,6 @@
 [
   {
     "id": "1",
-    "name": "Kral FM",
-    "slug": "kral-fm",
-    "logoUrl": "https://kralmcdn.dogusyayin.com.tr/Uploads/Radyolar/kralfm/Kral-FM-Logo.png",
-    "streamUrl": "https://n10101m.mediatriple.net/videoonlylive/mtkralfmmedya/broadcast_5f096232b62ee.smil/playlist.m3u8",
-    "category": "Arabesk",
-    "description": "Türkiye'nin en çok dinlenen arabesk ve fantezi müzik radyosu.",
-    "frequency": "104.4 FM"
-  },
-  {
-    "id": "2",
-    "name": "Kral Pop",
-    "slug": "kral-pop",
-    "logoUrl": "https://kralmcdn.dogusyayin.com.tr/Uploads/Radyolar/kralpop/Kral-Pop-Logo.png",
-    "streamUrl": "https://n10101m.mediatriple.net/videoonlylive/mtkralpopmedya/broadcast_5f096277717dc.smil/playlist.m3u8",
-    "category": "Pop",
-    "description": "En yeni ve en popüler Türkçe pop şarkılar.",
-    "frequency": "94.7 FM"
-  },
-  {
-    "id": "3",
-    "name": "TRT FM",
-    "slug": "trt-fm",
-    "logoUrl": "https://radyo.trt.net.tr/images/trtfm.png",
-    "streamUrl": "https://listen.radyotvonline.net/trtfm/playlist.m3u8",
-    "category": "Karma",
-    "description": "Türkiye'nin her yerinde kesintisiz yayın yapan TRT'nin popüler radyo kanalı.",
-    "frequency": "91.4 FM"
-  },
-  {
-    "id": "4",
-    "name": "PowerTürk",
-    "slug": "powerturk",
-    "logoUrl": "https://www.powerapp.com.tr/assets/img/logos/powerturk.png",
-    "streamUrl": "https://listen.powerapp.com.tr/powerturk/mpeg/icecast.audio",
-    "category": "Pop",
-    "description": "Önce Müzik! Türkiye'nin Türkçe pop radyosu.",
-    "frequency": "99.8 FM"
-  },
-  {
-    "id": "5",
-    "name": "Power FM",
-    "slug": "power-fm",
-    "logoUrl": "https://www.powerapp.com.tr/assets/img/logos/powerfm.png",
-    "streamUrl": "https://listen.powerapp.com.tr/powerfm/mpeg/icecast.audio",
-    "category": "Yabancı",
-    "description": "En iyi yabancı müzik ve dünyaca ünlü DJ'lerin miksleri.",
-    "frequency": "100.0 FM"
-  },
-  {
-    "id": "6",
-    "name": "Slow Türk",
-    "slug": "slow-turk",
-    "logoUrl": "https://www.slowturk.com.tr/assets/img/logo.png",
-    "streamUrl": "https://radyo.duhnet.tv/slowturk",
-    "category": "Slow",
-    "description": "Türkiye'nin en iyi aşk şarkılarını dinleyebileceğiniz yegane adres.",
-    "frequency": "95.3 FM"
-  },
-  {
-    "id": "7",
-    "name": "NTV Radyo",
-    "slug": "ntv-radyo",
-    "logoUrl": "https://kralmcdn.dogusyayin.com.tr/Uploads/Radyolar/ntvradyo/NTV-Radyo-Logo.png",
-    "streamUrl": "https://n10101m.mediatriple.net/videoonlylive/mtntvradyomedya/broadcast_5f096232b62ee.smil/playlist.m3u8",
-    "category": "Haber",
-    "description": "Haberin adresi NTV'nin kaliteli içerikleri radyoda.",
-    "frequency": "102.8 FM"
-  },
-  {
-    "id": "8",
-    "name": "Joy FM",
-    "slug": "joy-fm",
-    "logoUrl": "https://karnaval.com/media/station_logo/joyfm.png",
-    "streamUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/JOY_FM_SC",
-    "category": "Slow",
-    "description": "Sadece en iyi yabancı slow şarkılar ve eşsiz klasikler.",
-    "frequency": "100.6 FM"
-  },
-  {
-    "id": "9",
-    "name": "Joy Türk",
-    "slug": "joy-turk",
-    "logoUrl": "https://karnaval.com/media/station_logo/joyturk.png",
-    "streamUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/JOY_TURK_SC",
-    "category": "Slow",
-    "description": "Türkiye'nin ilk Türkçe slow müzik radyosu. Aşkın ritmi.",
-    "frequency": "89.0 FM"
-  },
-  {
-    "id": "10",
-    "name": "Metro FM",
-    "slug": "metro-fm",
-    "logoUrl": "https://karnaval.com/media/station_logo/metrofm.png",
-    "streamUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/METRO_FM_SC",
-    "category": "Yabancı",
-    "description": "Türkiye'nin ilk ve en çok dinlenen yabancı müzik radyosu. Dünya hitleri burada.",
-    "frequency": "97.2 FM"
-  },
-  {
-    "id": "11",
     "name": "Süper FM",
     "slug": "super-fm",
     "logoUrl": "https://karnaval.com/media/station_logo/superfm.png",
@@ -110,7 +10,37 @@
     "frequency": "90.8 FM"
   },
   {
-    "id": "12",
+    "id": "2",
+    "name": "Metro FM",
+    "slug": "metro-fm",
+    "logoUrl": "https://karnaval.com/media/station_logo/metrofm.png",
+    "streamUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/METRO_FM_SC",
+    "category": "Yabancı",
+    "description": "Türkiye'nin ilk ve en çok dinlenen yabancı müzik radyosu. Dünya hitleri burada.",
+    "frequency": "97.2 FM"
+  },
+  {
+    "id": "3",
+    "name": "Joy Türk",
+    "slug": "joy-turk",
+    "logoUrl": "https://karnaval.com/media/station_logo/joyturk.png",
+    "streamUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/JOY_TURK_SC",
+    "category": "Slow",
+    "description": "Türkiye'nin ilk Türkçe slow müzik radyosu. Aşkın ritmi.",
+    "frequency": "89.0 FM"
+  },
+  {
+    "id": "4",
+    "name": "Joy FM",
+    "slug": "joy-fm",
+    "logoUrl": "https://karnaval.com/media/station_logo/joyfm.png",
+    "streamUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/JOY_FM_SC",
+    "category": "Slow",
+    "description": "Sadece en iyi yabancı slow şarkılar ve eşsiz klasikler.",
+    "frequency": "100.6 FM"
+  },
+  {
+    "id": "5",
     "name": "Virgin Radio",
     "slug": "virgin-radio",
     "logoUrl": "https://karnaval.com/media/station_logo/virgin.png",
@@ -120,67 +50,57 @@
     "frequency": "106.2 FM"
   },
   {
-    "id": "13",
-    "name": "Alem FM",
-    "slug": "alem-fm",
-    "logoUrl": "https://pbs.twimg.com/profile_images/1703665780517810176/_iEwX-cW_400x400.jpg",
-    "streamUrl": "http://sct.turkmedya.com.tr/alemfm",
+    "id": "6",
+    "name": "Radyo Mydonose",
+    "slug": "radyo-mydonose",
+    "logoUrl": "https://karnaval.com/media/station_logo/mydonose.png",
+    "streamUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADYO_MYDONOSE_SC",
+    "category": "Yabancı",
+    "description": "Sadece Hit Müzik.",
+    "frequency": "106.0 FM"
+  },
+  {
+    "id": "7",
+    "name": "PowerTürk",
+    "slug": "powerturk",
+    "logoUrl": "https://www.powerapp.com.tr/assets/img/logos/powerturk.png",
+    "streamUrl": "https://listen.powerapp.com.tr/powerturk/mpeg/icecast.audio",
     "category": "Pop",
-    "description": "Cümle Alem Burada! Türkiye'nin eğlence radyosu.",
-    "frequency": "89.2 FM"
+    "description": "Önce Müzik! Türkiye'nin Türkçe pop radyosu.",
+    "frequency": "99.8 FM"
   },
   {
-    "id": "14",
-    "name": "Best FM",
-    "slug": "best-fm",
-    "logoUrl": "https://www.bestfm.com.tr/assets/img/logo.png",
-    "streamUrl": "http://46.20.7.126/bestfm.mp3",
+    "id": "8",
+    "name": "Power FM",
+    "slug": "power-fm",
+    "logoUrl": "https://www.powerapp.com.tr/assets/img/logos/powerfm.png",
+    "streamUrl": "https://listen.powerapp.com.tr/powerfm/mpeg/icecast.audio",
+    "category": "Yabancı",
+    "description": "En iyi yabancı müzik ve dünyaca ünlü DJ'lerin miksleri.",
+    "frequency": "100.0 FM"
+  },
+  {
+    "id": "9",
+    "name": "Power Pop",
+    "slug": "power-pop",
+    "logoUrl": "https://www.powerapp.com.tr/assets/img/logos/powerpop.png",
+    "streamUrl": "https://listen.powerapp.com.tr/powerpop/mpeg/icecast.audio",
     "category": "Pop",
-    "description": "Türkiye'nin en iyi radyosu Best FM. Türkçe pop ve kaliteli programlar.",
-    "frequency": "98.4 FM"
+    "description": "Pop müziğin en hit şarkıları.",
+    "frequency": "Dijital"
   },
   {
-    "id": "15",
-    "name": "Show Radyo",
-    "slug": "show-radyo",
-    "logoUrl": "https://www.showradyo.com.tr/Content/Images/logo.png",
-    "streamUrl": "http://46.20.3.229/ShowRadyo",
-    "category": "Pop",
-    "description": "Türkiye'nin Show Radyosu.",
-    "frequency": "89.8 FM"
+    "id": "10",
+    "name": "Power Love",
+    "slug": "power-love",
+    "logoUrl": "https://www.powerapp.com.tr/assets/img/logos/powerlove.png",
+    "streamUrl": "https://listen.powerapp.com.tr/powerlove/mpeg/icecast.audio",
+    "category": "Slow",
+    "description": "Aşk şarkılarının en güzel adresi.",
+    "frequency": "100.2 FM"
   },
   {
-    "id": "16",
-    "name": "Radyo D",
-    "slug": "radyo-d",
-    "logoUrl": "https://www.radyod.com/assets/img/logo.png",
-    "streamUrl": "https://radyo.duhnet.tv/radyod",
-    "category": "Pop",
-    "description": "Müzik D'liyor.",
-    "frequency": "104.0 FM"
-  },
-  {
-    "id": "17",
-    "name": "TRT Radyo 1",
-    "slug": "trt-radyo-1",
-    "logoUrl": "https://radyo.trt.net.tr/images/trtradyo1.png",
-    "streamUrl": "https://listen.radyotvonline.net/trtradyo1/playlist.m3u8",
-    "category": "Haber",
-    "description": "Geniş yelpazeli kültür, haber ve sanat programları.",
-    "frequency": "95.6 FM"
-  },
-  {
-    "id": "18",
-    "name": "CNN Türk Radyo",
-    "slug": "cnn-turk-radyo",
-    "logoUrl": "https://www.cnnturk.com/assets/images/logo.png",
-    "streamUrl": "https://radyo.duhnet.tv/cnnturk",
-    "category": "Haber",
-    "description": "Haberin ve gelişmelerin anında radyodaki yansıması.",
-    "frequency": "92.5 FM"
-  },
-  {
-    "id": "19",
+    "id": "11",
     "name": "Radyo Fenomen",
     "slug": "radyo-fenomen",
     "logoUrl": "https://www.radyofenomen.com/assets/img/logo.png",
@@ -190,113 +110,193 @@
     "frequency": "104.0 FM"
   },
   {
-    "id": "20",
+    "id": "12",
     "name": "Fenomen Türk",
     "slug": "fenomen-turk",
-    "logoUrl": "https://pbs.twimg.com/profile_images/1498219460505051142/t4pE5kX1_400x400.jpg",
+    "logoUrl": "https://www.radyofenomen.com/assets/img/logo-turk.png",
     "streamUrl": "https://listen.radyofenomen.com/fenomenturk/256/icecast.audio",
     "category": "Pop",
     "description": "Türkçe popun fenomen adresi.",
     "frequency": "Dijital"
   },
   {
+    "id": "13",
+    "name": "Fenomen Pop",
+    "slug": "fenomen-pop",
+    "logoUrl": "https://www.radyofenomen.com/assets/img/logo-pop.png",
+    "streamUrl": "https://listen.radyofenomen.com/fenomenpop/256/icecast.audio",
+    "category": "Pop",
+    "description": "En güncel ve fenomen Türkçe pop şarkıları.",
+    "frequency": "Dijital"
+  },
+  {
+    "id": "14",
+    "name": "Slow Türk",
+    "slug": "slow-turk",
+    "logoUrl": "https://www.slowturk.com.tr/assets/img/logo.png",
+    "streamUrl": "https://radyo.duhnet.tv/slowturk",
+    "category": "Slow",
+    "description": "Türkiye'nin en iyi aşk şarkılarını dinleyebileceğiniz yegane adres.",
+    "frequency": "95.3 FM"
+  },
+  {
+    "id": "15",
+    "name": "Radyo D",
+    "slug": "radyo-d",
+    "logoUrl": "https://www.radyod.com/assets/img/logo.png",
+    "streamUrl": "https://radyo.duhnet.tv/radyod",
+    "category": "Pop",
+    "description": "Müzik D'liyor.",
+    "frequency": "104.0 FM"
+  },
+  {
+    "id": "16",
+    "name": "CNN Türk Radyo",
+    "slug": "cnn-turk-radyo",
+    "logoUrl": "https://www.cnnturk.com/assets/images/logo.png",
+    "streamUrl": "https://radyo.duhnet.tv/cnnturk",
+    "category": "Haber",
+    "description": "Haberin ve gelişmelerin anında radyodaki yansıması.",
+    "frequency": "92.5 FM"
+  },
+  {
+    "id": "17",
+    "name": "Joy Türk Akustik",
+    "slug": "joyturk-akustik",
+    "logoUrl": "https://karnaval.com/media/station_logo/joyturkakustik.png",
+    "streamUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/JOYTURK_AKUSTIK_SC",
+    "category": "Slow",
+    "description": "Sevilen şarkıların en doğal ve samimi akustik versiyonları.",
+    "frequency": "Dijital"
+  },
+  {
+    "id": "18",
+    "name": "Efkar",
+    "slug": "efkar",
+    "logoUrl": "https://karnaval.com/media/station_logo/efkar.png",
+    "streamUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/EFKAR_SC",
+    "category": "Arabesk",
+    "description": "Arabesk ve fantezi müziğin değişmez adresi.",
+    "frequency": "Dijital"
+  },
+  {
+    "id": "19",
+    "name": "Retro Türk",
+    "slug": "retro-turk",
+    "logoUrl": "https://karnaval.com/media/station_logo/retroturk.png",
+    "streamUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/RETROTURK_SC",
+    "category": "Nostalji",
+    "description": "70'ler, 80'ler ve 90'ların unutulmaz Türkçe hitleri.",
+    "frequency": "Dijital"
+  },
+  {
+    "id": "20",
+    "name": "Borusan Klasik",
+    "slug": "borusan-klasik",
+    "logoUrl": "https://karnaval.com/media/station_logo/borusanklasik.png",
+    "streamUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/BORUSAN_KLASIK_SC",
+    "category": "Klasik",
+    "description": "Klasik müziğin en seçkin eserleri.",
+    "frequency": "Dijital"
+  },
+  {
     "id": "21",
-    "name": "Diyanet Radyo",
-    "slug": "diyanet-radyo",
-    "logoUrl": "https://diyanetradyo.diyanet.gov.tr/images/logo.png",
-    "streamUrl": "https://canliyayin.diyanetradyo.gov.tr/radyo",
-    "category": "Dini",
-    "description": "Kur'an-ı Kerim tilaveti, dini sohbetler ve ilahiler.",
-    "frequency": "103.6 FM"
+    "name": "Radyo Voyage",
+    "slug": "radyo-voyage",
+    "logoUrl": "https://karnaval.com/media/station_logo/voyage.png",
+    "streamUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADYO_VOYAGE_SC",
+    "category": "Karma",
+    "description": "Dünyanın müziği Radyo Voyage'da.",
+    "frequency": "107.4 FM"
   },
   {
     "id": "22",
-    "name": "Vav Radyo",
-    "slug": "vav-radyo",
-    "logoUrl": "https://vavradyo.com/assets/img/logo.png",
-    "streamUrl": "http://vavradyo.turkmedya.com.tr/vavradyo",
-    "category": "Dini",
-    "description": "Kur'an-ı Kerim, dini ve kültürel içerikler.",
-    "frequency": "105.2 FM"
+    "name": "BabyJoy",
+    "slug": "babyjoy",
+    "logoUrl": "https://karnaval.com/media/station_logo/babyjoy.png",
+    "streamUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/BABYJOY_SC",
+    "category": "Çocuk",
+    "description": "Bebekler ve çocuklar için özel olarak hazırlanmış müzikler.",
+    "frequency": "Dijital"
   },
   {
     "id": "23",
-    "name": "Karadeniz FM",
-    "slug": "karadeniz-fm",
-    "logoUrl": "https://www.karadenizfm.com.tr/assets/img/logo.png",
-    "streamUrl": "http://46.20.7.126/karadeniz",
-    "category": "Yöresel",
-    "description": "Karadeniz ezgilerinin ve yöresel müziğin en iyi adresi.",
-    "frequency": "98.2 FM"
+    "name": "Fenomen Rap",
+    "slug": "fenomen-rap",
+    "logoUrl": "https://www.radyofenomen.com/assets/img/logo-rap.png",
+    "streamUrl": "https://listen.radyofenomen.com/fenomenrap/256/icecast.audio",
+    "category": "Rap",
+    "description": "Rap ve Hip-Hop dünyasından en hit parçalar.",
+    "frequency": "Dijital"
   },
   {
     "id": "24",
-    "name": "Radyo 7",
-    "slug": "radyo-7",
-    "logoUrl": "https://www.radyo7.com/assets/img/logo.png",
-    "streamUrl": "http://stream.radyo7.com/radyo7/mp3/icecast.audio",
-    "category": "Karma",
-    "description": "İyi Müzik, Doğru Haber. Aile radyosu.",
-    "frequency": "104.6 FM"
+    "name": "Fenomen Dans",
+    "slug": "fenomen-dans",
+    "logoUrl": "https://www.radyofenomen.com/assets/img/logo-dans.png",
+    "streamUrl": "https://listen.radyofenomen.com/fenomenclubbin/256/icecast.audio",
+    "category": "Dans",
+    "description": "Kesintisiz elektronik ve dans müziği.",
+    "frequency": "Dijital"
   },
   {
     "id": "25",
-    "name": "Radyo Viva",
-    "slug": "radyo-viva",
-    "logoUrl": "https://www.radyoviva.com.tr/Content/Images/logo.png",
-    "streamUrl": "http://46.20.3.229/RadyoViva",
-    "category": "Pop",
-    "description": "Türkçe pop müziğin sevilen radyosu.",
-    "frequency": "90.0 FM"
+    "name": "Fenomen Akustik",
+    "slug": "fenomen-akustik",
+    "logoUrl": "https://www.radyofenomen.com/assets/img/logo-akustik.png",
+    "streamUrl": "https://listen.radyofenomen.com/fenomenakustik/256/icecast.audio",
+    "category": "Slow",
+    "description": "Popüler şarkıların en iyi akustik yorumları.",
+    "frequency": "Dijital"
   },
   {
     "id": "26",
-    "name": "Kafa Radyo",
-    "slug": "kafa-radyo",
-    "logoUrl": "https://kafaradyo.com/wp-content/uploads/2019/01/kafa-radyo-logo-1.png",
-    "streamUrl": "http://37.247.98.8/stream/1/",
-    "category": "Kültür",
-    "description": "Türkiye'nin en kafa radyosu.",
-    "frequency": "89.6 FM"
+    "name": "Power Dance",
+    "slug": "power-dance",
+    "logoUrl": "https://www.powerapp.com.tr/assets/img/logos/powerdance.png",
+    "streamUrl": "https://listen.powerapp.com.tr/powerdance/mpeg/icecast.audio",
+    "category": "Dans",
+    "description": "En hit elektronik dans şarkıları.",
+    "frequency": "Dijital"
   },
   {
     "id": "27",
-    "name": "Pal FM",
-    "slug": "pal-fm",
-    "logoUrl": "https://palfm.com.tr/assets/images/logo.png",
-    "streamUrl": "http://shoutcast.radyogrup.com:1030/;",
-    "category": "Pop",
-    "description": "Müziğin Türkçesi.",
-    "frequency": "99.2 FM"
+    "name": "Power Rocks",
+    "slug": "power-rocks",
+    "logoUrl": "https://www.powerapp.com.tr/assets/img/logos/powerrocks.png",
+    "streamUrl": "https://listen.powerapp.com.tr/powerrocks/mpeg/icecast.audio",
+    "category": "Rock",
+    "description": "Geçmişten günümüze en iyi rock parçaları.",
+    "frequency": "Dijital"
   },
   {
     "id": "28",
-    "name": "Pal Station",
-    "slug": "pal-station",
-    "logoUrl": "https://palstation106.com/assets/images/logo.png",
-    "streamUrl": "http://shoutcast.radyogrup.com:1040/;",
-    "category": "Yabancı",
-    "description": "Türkiye'nin en iyi yabancı hit radyosu.",
-    "frequency": "106.0 FM"
+    "name": "Pop 90",
+    "slug": "pop-90",
+    "logoUrl": "https://karnaval.com/media/station_logo/pop90.png",
+    "streamUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/POP90_SC",
+    "category": "Nostalji",
+    "description": "90'lar Türkçe popunun efsane şarkıları.",
+    "frequency": "Dijital"
   },
   {
     "id": "29",
-    "name": "Baba Radyo",
-    "slug": "baba-radyo",
-    "logoUrl": "https://www.babaradyo.com/assets/images/logo.png",
-    "streamUrl": "http://shoutcast.radyogrup.com:1020/;",
-    "category": "Arabesk",
-    "description": "Türkiye'nin baba radyosu.",
-    "frequency": "105.6 FM"
+    "name": "Jeton",
+    "slug": "jeton",
+    "logoUrl": "https://karnaval.com/media/station_logo/jeton.png",
+    "streamUrl": "https://playerservices.streamtheworld.com/api/livestream-redirect/JETON_SC",
+    "category": "Dans",
+    "description": "Club, Techno, House. Gece hayatının nabzı.",
+    "frequency": "Dijital"
   },
   {
     "id": "30",
-    "name": "TRT Türkü",
-    "slug": "trt-turku",
-    "logoUrl": "https://radyo.trt.net.tr/images/trtturku.png",
-    "streamUrl": "https://listen.radyotvonline.net/trtturku/playlist.m3u8",
-    "category": "Yöresel",
-    "description": "Türk Halk Müziğinin yegane adresi.",
-    "frequency": "94.2 FM"
+    "name": "Power Akustik",
+    "slug": "power-akustik",
+    "logoUrl": "https://www.powerapp.com.tr/assets/img/logos/powerakustik.png",
+    "streamUrl": "https://listen.powerapp.com.tr/powerakustik/mpeg/icecast.audio",
+    "category": "Slow",
+    "description": "Ruhunuzu dinlendirecek en saf ve akustik performanslar.",
+    "frequency": "Dijital"
   }
 ]
